@@ -1,0 +1,62 @@
+.btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 8px 7px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    font-weight: bold;
+    margin: auto;
+    border: none;
+	  cursor: pointer;
+	  border-radius: 3px;
+	  padding: 6px;
+	  width: auto;
+	  color: white !important;
+	  margin-left: 20px;
+	  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+	  &:hover {
+	    transform: translateY(-3px);
+	    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
+	  }
+
+}
+
+.success {
+  background-color: #4CAF50;
+  } /* Green */
+
+
+.info {
+  background-color: #2196F3;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 6px;
+  width: 100px;
+  color: white !important;
+  margin-left: 25px;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
+  }
+  } /* Blue */
+
+
+.warning {background-color: #2CC990;
+  } /* Orange */
+.warning:hover {background: #2CC990; }
+
+.danger {background-color: #f44336;} /* Red */
+.danger:hover {background: #da190b;}
+
+.default {background-color: #e7e7e7; color: black;} /* Gray */
+.default:hover {background: #ddd;}
+
+.delete {background-color:#E3000E; }
+.delete:hover { background-color: #E3000E; }
+
+.add {background-color:#1DABB8; }
+.add:hover { background-color: #1DABB8; }
+
+.update {background-color:#25373D; }
+.update:hover { background-color: #25373D; color: red}
